@@ -46,11 +46,11 @@ enum class RallyScreen(
         icon = Icons.Filled.MoneyOff,
         body = { BillsBody(UserData.bills) }
     );
-
-    @Composable
-    fun content(onScreenChange: (String) -> Unit) {
-        body(onScreenChange)
-    }
+//
+//    @Composable
+//    fun content(onScreenChange: (String) -> Unit) {
+//        body(onScreenChange)
+//    }
 
     companion object {
         fun fromRoute(route: String?): RallyScreen =
